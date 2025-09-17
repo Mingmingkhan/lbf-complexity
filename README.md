@@ -11,6 +11,18 @@ Seymour (Marambio) Island, Antarctica has one of the most expanded onshore Creta
 2) The above file is also present in this repository.
 
 3) R scripts present:
+      01-Analyses_KLB7.R - creates the occurrence matrices for KLB 7 under sensitivity treatments and does co-occurrence and metacommunity analyses.
+      02-Analyses_KLB8.R - creates the occurrence matrices for KLB 8 under sensitivity treatments and does co-occurrence and metacommunity analyses.
+      03-Analyses_KLB9.R - creates the occurrence matrices for KLB 9 under sensitivity treatments and does co-occurrence and metacommunity analyses.
+      04-Ordination.R - visualization of the reciprocally averaged occurrence data for use in metacommunity analyses, and a comparison with NMDS analyses.
+      05-all_cooccur.R - boxplots of the significant co-occurrences based on sensitivity treated data.
+      06-all_metacom_plots.R - plots the results of the metacommunity analyses.
+      07-coverage_thinning.R - assesses rarefaction and coverage based rarefaction; spatially explicit subsampling; plots results.
+
+Note that all figures have been modified in Inkscape. 
+
+   
+   
 
 
 
