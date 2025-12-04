@@ -11,7 +11,7 @@ Bivalve_Lucinidae
 Bivalve_Malletiidae
 Bivalve_Mytilidae
 Bivalve_Nuculidae
-Bivalve_Pbakeveliidae
+Bivalve_Bakeveliidae
 Bivalve_Periplomatidae
 Bivalve_Pholadomyidae
 Bivalve_Pinnidae
