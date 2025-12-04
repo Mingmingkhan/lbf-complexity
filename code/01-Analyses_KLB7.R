@@ -10,7 +10,6 @@ source("code/palaeoFunctions.R")
 #feed in data and allocate to KLB according to zones
 
 data.pri<-read.csv(file = "data/Seymour_LBF_Fossils.csv")
-
 data.klb7<-data.pri[data.pri$KLB==7,]
 data.klb8 <- data.pri[data.pri$KLB==8,]
 data.klb9 <- data.pri[data.pri$KLB==9,]

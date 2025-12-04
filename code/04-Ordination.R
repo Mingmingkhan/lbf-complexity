@@ -25,6 +25,8 @@ df7.8.9[is.na(df7.8.9)] <- 0
 
 df <- remove.zeroes(df7.8.9)
 
+
+
 svg(file = "imagine_ordinated.svg", w = 12, h = 12, dpi = 300)
 df2 <- OrderMatrix(df, scores =1, outputScores = FALSE)
 metacom::Imagine(df2, col = c(0, "grey"),fill=FALSE,
@@ -139,7 +141,8 @@ x <- ggplot(nmds_scores, aes(x = NMDS1, y = NMDS2, color = factor(KLB))) +
         scale_color_manual(values = c("7" = "forestgreen", "8" = "blue", "9" = "orange")) +
         labs(title = "NMDS Ordination (Jaccard, Presence/Absence)",
              x = "NMDS1", y = "NMDS2", color = "KLB Group") +
-        theme_minimal() +
+        theme_minimal() + 
         xlim(-2, 2) + ylim(-2,2)
+
 x
 
